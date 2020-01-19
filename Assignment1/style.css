@@ -1,0 +1,145 @@
+h1
+{
+    color: whitesmoke;
+    font-style: italic;
+    font-family: 'Tomorrow', sans-serif;
+    text-align: center;
+    text-emphasis: none;
+    text-shadow: magenta 2px 2px 11px;
+    text-decoration: underline overline;
+    padding: 1vh;
+    font-size: 45pt;
+
+}
+h2
+{
+    font-family: 'Kalam', sans-serif ;
+    text-align: center;
+    padding: 2.5%;
+    font-style: bold; 
+    font-size: 30pt;
+    color: whitesmoke;
+    text-decoration: underline;
+    text-shadow: cyan 3px 3px 11px;
+
+} 
+
+body {
+    background-color: #1C253E;
+
+}
+.hero{
+    size: auto;
+    width: auto;
+    mask-image: linear-gradient(black, black);
+    padding:2em;
+    
+}
+.center{
+    display: block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: initial;
+    height: initial;
+    /* CITATION POINT: [1]*/
+  
+}
+p{
+    text-align: left;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-justify: center;
+    color: whitesmoke;
+    text-shadow: #FFEE85 2px 1px 11px;
+}
+p2{
+    text-align: left;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-justify: center;
+    color: whitesmoke;
+    text-shadow: red 2px 1px 11px;
+}
+.aboutcontent{
+    align-content: center;
+}
+*{
+    margin: 0;
+    padding:0;
+}
+nav {
+    padding: auto;
+    align-self: center;
+}
+
+ul {
+    overflow: auto;
+    list-style-type: none;
+    align-content: center;
+}
+
+li{
+    height: 25px;
+    float: left;
+    margin-right: 0px;
+    border-right: 1px solid
+    #aaa;
+    padding: 0 20px;
+    font-family: 'PT Sans',sans-serif;
+
+}
+li:last-child{
+    border-right: none;
+}
+
+li a {
+    text-decoration:none ;
+    color: #ccc;
+    font: 24px/1 Helvetica, Verdana, sans-serif;
+    text-transform: lowercase;
+    transition: all 0.5s ease;
+  }
+ 
+  li a:hover {
+    color: whitesmoke;
+    text-shadow: greenyellow 1px 1px 3px
+  }
+
+  li.active a {
+    font-weight: bold;
+    color: #333;
+  }
+
+.aboutcontent{
+    justify-items: center;
+    float: unset;
+    padding-left: 32.5%;
+    padding-right: auto;
+    padding-top: 4em;
+}  
+
+img{
+    border: #1C253E;
+    border-radius: 35%;
+    size: 1vw 1vh ;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto ;
+    gap: 1vh 1vw ;
+
+}
+    .grid2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: auto auto auto auto auto ;
+        gap: 0.5vw 0.5vh ;
+    
+}
